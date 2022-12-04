@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    align-items: center;
+    justify-content: center;
+    width: 100% auto;
+    height: 100% auto;
+}
+
+.up-footer {
+    display: flex;
+    position: relative;
+    border: 4px solid green;
+    width: 100% auto;
+    height: 100% auto;
+    background-color: #00FA9A;
+    top: 2%;
+}
+
+.logo-up-footer {
+    position: absolute;
+    left: 0.1%;
+    opacity: 2;
+    top: 0.5%;
+}
+/*
+margin: up right down left;
+*/
+
+.navigator {
+    display: flex;
+    position: absolute;
+    border: 4px solid #ADFF2F;
+    border-radius: 20px;
+    left: 4%;
+    width: 97%;
+    height: 100% auto;
+    background-color: #ADFF2F;
+    opacity: 0.8;
+}
+
+.navigator a {
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: 950;
+    font-style: italic;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.35s ease;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color:#FF0000;
+    rgb(0, 0, 0);
+}
+
+.navigator a:hover {
+    border-radius: 20px;
+    background-color: #00FF00;
+    opacity: 0.6;
+    transition: opacity  0.35s ease;
+    cursor: pointer;
+}
+
+.contact-text {
+    display: flex;
+    position: absolute;
+    right: 0%;
+    border: 0px solid #00FFFF;
+    color: #FF0000;
+    line-height: 1.6;
+    font-size: 22px;
+    cursor: default;
+    font-weight:bold;
+    margin: 7vh 0 0 0;
+}
+
+.contact {
+    display: flex;
+    position: absolute;
+    right: 0%;
+    border: 0px solid #FFFF00;
+    margin: 0vh 0 0 1vh;
+}
+
+.sign-up button {
+    font-size: 18px;
+    color: #FF0000;
+    font-weight: 600;
+    border: 4px solid #00FF00;
+    border-radius: 15%;
+    border-color: Aqua;
+    background-color: #00FF7F;
+    margin: 0vh 20vh 0 30vh;
+}
+
+.sign-up button:hover {
+    opacity: 1;
+    background-color: #0000FF;
+    transition: opacity 0.35s ease;
+    cursor: pointer;
+}
+/*
+margin: up right down left;
+*/
+.form-sing-up {
+    display: none;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FF0000;
+    font-weight: 600;
+    border: 4px solid #00FF00;
+    margin: 2vh 0 0 145vh;
+    width: 25%;
+    height: 100%;
+    top: 2%;
+    animation-name: form-sing-up;
+    animation-duration: 1.5s;
+}
+
+@keyframes form-sing-up {
+    from {top: -320px; opacity: 0};
+    to {top: 0; opacity: 1};
+}
+
+.about-text {
+    display: none;
+    position: relative;
+}
+
+.list-presentation {
+    display: flex;
+    position: absolute;
+    left: 40%;
+    width: 100% auto;
+    height: 100% auto;
+}
+
+.lower-footer {
+    display: flex;
+    position: relative;
+    top: 93em;
+    border-radius: 20%;
+    background-color: #ADFF2F;
+    opacity: 0.6;
+    width: 100% auto;
+    height: 100% auto;
+}
+
+.navigator-lower {
+    left: 1%;
+    padding: 3vh;
+}
+
+.price-info {
+    display: flex;
+    position: fixed;
+    left: 1em;
+    top: 11.5em;
+    background-position:center;
+    width:85px;
+    height:95px;
+    background:none;
+    opacity:0.6;
+    color:black;
+    font-size:23px;
+    fond-weight:bold;
+    line-height:3em;
+    cursor:pointer;
+    border:4px solid white;
+    border-radius:20px;
+    transition: opacity 0.35s ease;
+}
+
+.price-info:hover {
+    border-radius: 20px;
+    background-color: #FFFFE0;
+    opacity: 0.9;
+    transition: opacity  0.35s ease;
+    cursor: pointer;
+}
+
+.table-price {
+    display: none;
+    position: absolute;
+    top: 15em;
+    margin: 0 0 0 10em;
+}
+
+.lower-contact-text {
+    position: absolute;
+    bottom: 0vh;
+    left: 138vh;
+    border: 0px solid #00FFFF;
+    color: red;
+    font-size: 18px;
+    fond-weight: 600;
+    margin: 0vh 0vh 0 2vh;
+    width: 100% auto;
+    height: 100% auto;
+    cursor: default;
+}
+.lower-logo {
+    position: absolute;
+    bottom: 0.7%;
+    left: 88%;
+}
